@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        >
+
+        <item
+            android:id="@+id/daraz"
+            android:title="DARAZ"
+            android:icon="@drawable/baseline_shop_2_24"
+            android:checkable="true"
+            />
+
+        <item
+            android:id="@+id/iferi"
+            android:title="IFERI"
+            android:icon="@drawable/baseline_shop_24"
+            android:checkable="true"
+            />
+
+        <item
+            android:id="@+id/inmedism"
+            android:title="InMedism"
+            android:icon="@drawable/baseline_health_and_safety_24"
+            android:checkable="true"
+            />
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        >
+        <item
+            android:id="@+id/setting"
+            android:title="Setting"
+            android:icon="@drawable/baseline_settings_24"
+            android:checkable="true"
+            />
+    </group>
+
+</menu>

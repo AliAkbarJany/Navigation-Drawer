@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        android:icon="@drawable/baseline_share_24"
+        android:iconTint="#00ACC1"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/like"
+        android:title="Like"
+        android:icon="@drawable/baseline_thumbs_up_down_24"
+        android:iconTint="#E30707"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
